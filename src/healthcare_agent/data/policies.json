@@ -1,0 +1,4 @@
+[
+  {"policy_id":"MRI-LSP-01","version":"2026-01","service":"lumbar MRI","source":"synthetic://policy/MRI-LSP-01/2026-01","text":"Lumbar MRI: progressive neurological deficit supports approval. Otherwise document six weeks of conservative therapy and persistent symptoms. Red flags require clinician escalation."},
+  {"policy_id":"PT-KNEE-02","version":"2026-01","service":"knee physical therapy","source":"synthetic://policy/PT-KNEE-02/2026-01","text":"Knee physical therapy: documented functional limitation and a clinician plan support approval. If either is missing, request information."}
+]

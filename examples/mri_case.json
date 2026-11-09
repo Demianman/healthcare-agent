@@ -1,0 +1,10 @@
+{
+  "case_id": "SYN-001",
+  "service": "lumbar MRI",
+  "facts": {
+    "conservative_therapy_weeks": 7,
+    "persistent_symptoms": true,
+    "progressive_neurological_deficit": false,
+    "red_flags": false
+  }
+}

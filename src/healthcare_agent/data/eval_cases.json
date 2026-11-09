@@ -1,0 +1,8 @@
+[
+  {"case":{"case_id":"SYN-E1","service":"lumbar MRI","facts":{"conservative_therapy_weeks":7,"persistent_symptoms":true}},"expected":"recommend_approve"},
+  {"case":{"case_id":"SYN-E2","service":"lumbar MRI","facts":{"conservative_therapy_weeks":2,"persistent_symptoms":true}},"expected":"request_information"},
+  {"case":{"case_id":"SYN-E3","service":"lumbar MRI","facts":{"red_flags":true,"conservative_therapy_weeks":7,"persistent_symptoms":true}},"expected":"escalate"},
+  {"case":{"case_id":"SYN-E4","service":"knee physical therapy","facts":{"functional_limitation":true,"clinician_plan":true}},"expected":"recommend_approve"},
+  {"case":{"case_id":"SYN-E5","service":"knee physical therapy","facts":{"functional_limitation":true}},"expected":"request_information"},
+  {"case":{"case_id":"SYN-E6","service":"unknown service","facts":{}},"expected":"escalate"}
+]

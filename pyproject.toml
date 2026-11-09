@@ -1,0 +1,24 @@
+[project]
+name = "healthcare-agent"
+version = "0.1.0"
+description = "Auditable prior-authorization review demo with synthetic cases"
+requires-python = ">=3.11"
+dependencies = ["langgraph>=1.0,<2", "langchain-core>=1.0,<2", "pydantic>=2,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+openai = ["langchain-openai>=1.0,<2"]
+
+[project.scripts]
+healthcare-agent = "healthcare_agent.cli:main"
+healthcare-agent-eval = "healthcare_agent.eval_cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+healthcare_agent = ["data/*.json"]
