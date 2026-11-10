@@ -1,6 +1,6 @@
 # Auditable Prior Authorization Agent
 
-Portfolio engineering prototype for the Deloitte Agentic AI Engineer JD. **Synthetic data and fictional policies only. Not for clinical use, coverage determinations, or PHI.**
+Portfolio engineering prototype for auditable agentic decisioning in regulated healthcare workflows. Synthetic data and fictional policies only. Not for clinical use, coverage determinations, or PHI.
 
 ## What it demonstrates
 
