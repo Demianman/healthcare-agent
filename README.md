@@ -2,6 +2,8 @@
 
 Portfolio engineering prototype for auditable agentic decisioning in regulated healthcare workflows. Synthetic data and fictional policies only. Not for clinical use, coverage determinations, or PHI.
 
+**[Explore the visual workflow](https://healthcare-agent-workflow-yiman.demianman.chatgpt.site)** — an interactive, non-technical walkthrough using three synthetic cases.
+
 ## What it demonstrates
 
 - LangGraph stateful workflow: intake → retrieve → proposer → critic → judge → human interrupt/resume.
